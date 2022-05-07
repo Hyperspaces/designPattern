@@ -3,6 +3,6 @@ package com.cc.pattern.factory.simpleFactory;
 public class Store {
 
     public AbstractCoffee getCoffee(String type) {
-        return CoffeeFactory.getCoffee(type);
+        return ReflexCoffeeFactory.getCoffee(type);
     }
 }
